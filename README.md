@@ -1,8 +1,8 @@
 # WEKA Classifier Comparisons
 
-This is C++ code written as part of a homework assignment from my "Data Mining: Intelligent Systems: Algorithms and Tools" graduate course in winter 2025. Before creating the C++ code, WEKA was used to load the following datasets: anneal.arff, autos.arff, glass.arff, labor.arff, sonar.arff, tic-tac-toe.arff, & vehicle.arff. The datasets were then trained with the following classifiers using 10-fold cross-validation & default parameters: Naïve Bayes, J48, IBK, SMO, MultilayerPerceptron, Bagging, & AdaBoostM1. The accuracies (weighted average of the true positive rate) and sizes of each dataset were documented for the classifiers on each dataset.
+This is C++ code written as part of a homework assignment from my "Data Mining: Intelligent Systems: Algorithms and Tools" graduate course in winter 2025. Before creating the C++ code, WEKA was used to load the following datasets: **anneal.arff, autos.arff, glass.arff, labor.arff, sonar.arff, tic-tac-toe.arff, & vehicle.arff**. The datasets were then trained with the following classifiers using 10-fold cross-validation & default parameters: **Naïve Bayes, J48, IBK, SMO, MultilayerPerceptron, Bagging, & AdaBoostM1**. The accuracies (weighted average of the true positive rate) and sizes of each dataset were documented for the classifiers on each dataset.
 
-In order to compare the classifiers on each dataset, a Z-statistic value much be computed for every possible combination:
+In order to compare the classifiers on each dataset, a Z-statistic value much be computed:
 ### Z = (pA – pB) / √((2p(1 – p)) / N)
 **Where:**
 * **pA: Accuracy of classifier A**
