@@ -28,4 +28,5 @@ The C++ code created helps automate the calculations of Z-statistics, as conside
 
 ![3](https://github.com/user-attachments/assets/930abf74-1f28-4525-a4b2-5a37a8717265)
 
-![4](https://github.com/user-attachments/assets/850c0a35-64f2-4541-b349-538db3d21057)
+![4](https://github.com/user-attachments/assets/e498db66-0a17-40a4-9e5a-11e4b08e4363)
+
