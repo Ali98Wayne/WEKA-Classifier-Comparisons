@@ -10,7 +10,7 @@ In order to compare the classifiers on each dataset, a Z-statistic value much be
 * **p = (pA + pB) / 2**
 * **N = Dataset size**
 
-The Z-statistic values were represented on a 7x7 table, with each cell formatted as win-loss-tie on the datasets. A win would be when classifier A is better than classifier B where Z > 1.96, a loss would be when classifier B is better than classifier A where Z < 1.96, a tie would not fall under either of those ranges. Afterward, a single classifier is determined to be the winner after calculating the sum of all wins for all classifiers.
+The Z-statistic values were represented on a 7x7 table, with each cell formatted as win-loss-tie on the datasets. A win would be when classifier A is better than classifier B where Z > -1.96, a loss would be when classifier B is better than classifier A where Z < 1.96, a tie would not fall under either of those ranges. Afterward, a single classifier is determined to be the winner after calculating the sum of all wins for all classifiers.
 
 The C++ code created helps automate the calculations of Z-statistics, as considering what the homework problem was asking, there would be 147 unique values (due to table symmetry) which would be tedious to calculate manually. In order to see all 294 values (with duplicates) line 26 should be changed from “int k = j + 1” to “int k = 0”.
 
